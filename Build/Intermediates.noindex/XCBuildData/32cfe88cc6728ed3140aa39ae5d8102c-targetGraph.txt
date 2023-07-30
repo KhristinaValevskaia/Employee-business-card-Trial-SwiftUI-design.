@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+MYAPP1 in MYAPP1, no dependencies

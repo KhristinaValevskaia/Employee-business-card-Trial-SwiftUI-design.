@@ -1,0 +1,1902 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "MY_TEST_PRE_APP",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "show",
+          "printedName": "show",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV4showSbvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV4showSbvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV4showSbvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV4showSbvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV4showSbvs",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV4showSbvs",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV4showSbvM",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV4showSbvM",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$show",
+          "printedName": "$show",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV5$show7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5$show7SwiftUI7BindingVySbGvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV5$show7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5$show7SwiftUI7BindingVySbGvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_show",
+          "printedName": "_show",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV5_show33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5_show33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV5_show33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5_show33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV5_show33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5_show33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvs",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV5_show33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5_show33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvM",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "round",
+          "printedName": "round",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "usr": "c:@S@CGSize"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV5roundSo6CGSizeVvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5roundSo6CGSizeVvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV5roundSo6CGSizeVvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5roundSo6CGSizeVvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV5roundSo6CGSizeVvs",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5roundSo6CGSizeVvs",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV5roundSo6CGSizeVvM",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV5roundSo6CGSizeVvM",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$round",
+          "printedName": "$round",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<CoreGraphics.CGSize>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV6$round7SwiftUI7BindingVySo6CGSizeVGvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6$round7SwiftUI7BindingVySo6CGSizeVGvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<CoreGraphics.CGSize>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGSize",
+                      "printedName": "CoreGraphics.CGSize",
+                      "usr": "c:@S@CGSize"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV6$round7SwiftUI7BindingVySo6CGSizeVGvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6$round7SwiftUI7BindingVySo6CGSizeVGvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_round",
+          "printedName": "_round",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<CoreGraphics.CGSize>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV6_round33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySo6CGSizeVGvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6_round33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySo6CGSizeVGvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<CoreGraphics.CGSize>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGSize",
+                      "printedName": "CoreGraphics.CGSize",
+                      "usr": "c:@S@CGSize"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV6_round33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySo6CGSizeVGvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6_round33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySo6CGSizeVGvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<CoreGraphics.CGSize>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGSize",
+                      "printedName": "CoreGraphics.CGSize",
+                      "usr": "c:@S@CGSize"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV6_round33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySo6CGSizeVGvs",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6_round33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySo6CGSizeVGvs",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV6_round33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySo6CGSizeVGvM",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6_round33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySo6CGSizeVGvM",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "showMe",
+          "printedName": "showMe",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV6showMe33_DE2723F1482752B907FE8CC9E5933A56LLSbvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6showMe33_DE2723F1482752B907FE8CC9E5933A56LLSbvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV6showMe33_DE2723F1482752B907FE8CC9E5933A56LLSbvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6showMe33_DE2723F1482752B907FE8CC9E5933A56LLSbvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV6showMe33_DE2723F1482752B907FE8CC9E5933A56LLSbvs",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6showMe33_DE2723F1482752B907FE8CC9E5933A56LLSbvs",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV6showMe33_DE2723F1482752B907FE8CC9E5933A56LLSbvM",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV6showMe33_DE2723F1482752B907FE8CC9E5933A56LLSbvM",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$showMe",
+          "printedName": "$showMe",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV7$showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV7$showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI7BindingVySbGvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV7$showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV7$showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI7BindingVySbGvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_showMe",
+          "printedName": "_showMe",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV7_showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV7_showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV7_showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV7_showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV7_showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV7_showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvs",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV7_showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV7_showMe33_DE2723F1482752B907FE8CC9E5933A56LL7SwiftUI5StateVySbGvM",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV4bodyQrvp",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV4bodyQrvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV4bodyQrvg",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV4bodyQrvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "ContentView_Previews",
+          "printedName": "ContentView_Previews",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "previews",
+              "printedName": "previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsV8previewsQrvpZ",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsV8previewsQrvpZ",
+              "moduleName": "MY_TEST_PRE_APP",
+              "static": true,
+              "declAttributes": [
+                "Custom",
+                "Dynamic"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OpaqueTypeArchetype",
+                      "printedName": "some SwiftUI.View",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "View",
+                          "printedName": "SwiftUI.View",
+                          "usr": "s:7SwiftUI4ViewP"
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsV8previewsQrvgZ",
+                  "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsV8previewsQrvgZ",
+                  "moduleName": "MY_TEST_PRE_APP",
+                  "static": true,
+                  "declAttributes": [
+                    "Dynamic"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView_Previews",
+                  "printedName": "MY_TEST_PRE_APP.ContentView.ContentView_Previews",
+                  "usr": "s:15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsV"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsVAEycfc",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsVAEycfc",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Custom",
+                "Dynamic"
+              ],
+              "init_kind": "Designated"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsV",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV0eF9_PreviewsV",
+          "moduleName": "MY_TEST_PRE_APP",
+          "declAttributes": [
+            "Custom"
+          ],
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "PreviewProvider",
+              "printedName": "PreviewProvider",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "Previews",
+                  "printedName": "Previews",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OpaqueTypeArchetype",
+                      "printedName": "some SwiftUI.View",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "View",
+                          "printedName": "SwiftUI.View",
+                          "usr": "s:7SwiftUI4ViewP"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:7SwiftUI15PreviewProviderP",
+              "mangledName": "$s7SwiftUI15PreviewProviderP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "_PreviewProvider",
+              "printedName": "_PreviewProvider",
+              "usr": "s:7SwiftUI16_PreviewProviderP",
+              "mangledName": "$s7SwiftUI16_PreviewProviderP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "PhotoView",
+          "printedName": "PhotoView",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "body",
+              "printedName": "body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV05PhotoF0V4bodyQrvp",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV05PhotoF0V4bodyQrvp",
+              "moduleName": "MY_TEST_PRE_APP",
+              "declAttributes": [
+                "Custom",
+                "Dynamic"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OpaqueTypeArchetype",
+                      "printedName": "some SwiftUI.View",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "View",
+                          "printedName": "SwiftUI.View",
+                          "usr": "s:7SwiftUI4ViewP"
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:15MY_TEST_PRE_APP11ContentViewV05PhotoF0V4bodyQrvg",
+                  "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV05PhotoF0V4bodyQrvg",
+                  "moduleName": "MY_TEST_PRE_APP",
+                  "declAttributes": [
+                    "Dynamic"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PhotoView",
+                  "printedName": "MY_TEST_PRE_APP.ContentView.PhotoView",
+                  "usr": "s:15MY_TEST_PRE_APP11ContentViewV05PhotoF0V"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV05PhotoF0VAEycfc",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV05PhotoF0VAEycfc",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "init_kind": "Designated"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV05PhotoF0V",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV05PhotoF0V",
+          "moduleName": "MY_TEST_PRE_APP",
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "View",
+              "printedName": "View",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "Body",
+                  "printedName": "Body",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OpaqueTypeArchetype",
+                      "printedName": "some SwiftUI.View",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "View",
+                          "printedName": "SwiftUI.View",
+                          "usr": "s:7SwiftUI4ViewP"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:7SwiftUI4ViewP",
+              "mangledName": "$s7SwiftUI4ViewP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "SecondView",
+          "printedName": "SecondView",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "body",
+              "printedName": "body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV06SecondF0V4bodyQrvp",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV06SecondF0V4bodyQrvp",
+              "moduleName": "MY_TEST_PRE_APP",
+              "declAttributes": [
+                "Custom",
+                "Dynamic"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OpaqueTypeArchetype",
+                      "printedName": "some SwiftUI.View",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "View",
+                          "printedName": "SwiftUI.View",
+                          "usr": "s:7SwiftUI4ViewP"
+                        }
+                      ]
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:15MY_TEST_PRE_APP11ContentViewV06SecondF0V4bodyQrvg",
+                  "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV06SecondF0V4bodyQrvg",
+                  "moduleName": "MY_TEST_PRE_APP",
+                  "declAttributes": [
+                    "Dynamic"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SecondView",
+                  "printedName": "MY_TEST_PRE_APP.ContentView.SecondView",
+                  "usr": "s:15MY_TEST_PRE_APP11ContentViewV06SecondF0V"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV06SecondF0VAEycfc",
+              "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV06SecondF0VAEycfc",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "init_kind": "Designated"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV06SecondF0V",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV06SecondF0V",
+          "moduleName": "MY_TEST_PRE_APP",
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "View",
+              "printedName": "View",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "Body",
+                  "printedName": "Body",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OpaqueTypeArchetype",
+                      "printedName": "some SwiftUI.View",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "View",
+                          "printedName": "SwiftUI.View",
+                          "usr": "s:7SwiftUI4ViewP"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:7SwiftUI4ViewP",
+              "mangledName": "$s7SwiftUI4ViewP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(show:round:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "MY_TEST_PRE_APP.ContentView",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "hasDefaultArg": true,
+              "usr": "c:@S@CGSize"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewV4show5roundACSb_So6CGSizeVtcfc",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV4show5roundACSb_So6CGSizeVtcfc",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "MY_TEST_PRE_APP.ContentView",
+              "usr": "s:15MY_TEST_PRE_APP11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15MY_TEST_PRE_APP11ContentViewVACycfc",
+          "mangledName": "$s15MY_TEST_PRE_APP11ContentViewVACycfc",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:15MY_TEST_PRE_APP11ContentViewV",
+      "mangledName": "$s15MY_TEST_PRE_APP11ContentViewV",
+      "moduleName": "MY_TEST_PRE_APP",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "MY_TEST_PRE_APP",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MyApp",
+      "printedName": "MyApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.Scene",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Scene",
+                  "printedName": "SwiftUI.Scene",
+                  "usr": "s:7SwiftUI5SceneP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15MY_TEST_PRE_APP5MyAppV4bodyQrvp",
+          "mangledName": "$s15MY_TEST_PRE_APP5MyAppV4bodyQrvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15MY_TEST_PRE_APP5MyAppV4bodyQrvg",
+              "mangledName": "$s15MY_TEST_PRE_APP5MyAppV4bodyQrvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MyApp",
+              "printedName": "MY_TEST_PRE_APP.MyApp",
+              "usr": "s:15MY_TEST_PRE_APP5MyAppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15MY_TEST_PRE_APP5MyAppVACycfc",
+          "mangledName": "$s15MY_TEST_PRE_APP5MyAppVACycfc",
+          "moduleName": "MY_TEST_PRE_APP",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15MY_TEST_PRE_APP5MyAppV5$mainyyFZ",
+          "mangledName": "$s15MY_TEST_PRE_APP5MyAppV5$mainyyFZ",
+          "moduleName": "MY_TEST_PRE_APP",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:15MY_TEST_PRE_APP5MyAppV",
+      "mangledName": "$s15MY_TEST_PRE_APP5MyAppV",
+      "moduleName": "MY_TEST_PRE_APP",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "MY_TEST_PRE_APP",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "MY_TEST_PRE_APP"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Item",
+      "printedName": "Item",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(entity:insertInto:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Item",
+              "printedName": "MY_TEST_PRE_APP.Item",
+              "usr": "c:@M@MY_TEST_PRE_APP@objc(cs)Item"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSEntityDescription",
+              "printedName": "CoreData.NSEntityDescription",
+              "usr": "c:objc(cs)NSEntityDescription"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CoreData.NSManagedObjectContext?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSManagedObjectContext",
+                  "printedName": "CoreData.NSManagedObjectContext",
+                  "usr": "c:objc(cs)NSManagedObjectContext"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@MY_TEST_PRE_APP@objc(cs)Item(im)initWithEntity:insertIntoManagedObjectContext:",
+          "mangledName": "$s15MY_TEST_PRE_APP4ItemC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+          "moduleName": "MY_TEST_PRE_APP",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "fetchRequest",
+          "printedName": "fetchRequest()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSFetchRequest",
+              "printedName": "CoreData.NSFetchRequest<MY_TEST_PRE_APP.Item>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Item",
+                  "printedName": "MY_TEST_PRE_APP.Item",
+                  "usr": "c:@M@MY_TEST_PRE_APP@objc(cs)Item"
+                }
+              ],
+              "usr": "c:objc(cs)NSFetchRequest"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15MY_TEST_PRE_APP4ItemC12fetchRequestSo07NSFetchG0CyACGyFZ",
+          "mangledName": "$s15MY_TEST_PRE_APP4ItemC12fetchRequestSo07NSFetchG0CyACGyFZ",
+          "moduleName": "MY_TEST_PRE_APP",
+          "static": true,
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "NonObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "timestamp",
+          "printedName": "timestamp",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Date?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@MY_TEST_PRE_APP@objc(cs)Item(py)timestamp",
+          "mangledName": "$s15MY_TEST_PRE_APP4ItemC9timestamp10Foundation4DateVSgvp",
+          "moduleName": "MY_TEST_PRE_APP",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@MY_TEST_PRE_APP@objc(cs)Item(im)timestamp",
+              "mangledName": "$s15MY_TEST_PRE_APP4ItemC9timestamp10Foundation4DateVSgvg",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@MY_TEST_PRE_APP@objc(cs)Item(im)setTimestamp:",
+              "mangledName": "$s15MY_TEST_PRE_APP4ItemC9timestamp10Foundation4DateVSgvs",
+              "moduleName": "MY_TEST_PRE_APP",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@MY_TEST_PRE_APP@objc(cs)Item",
+      "mangledName": "$s15MY_TEST_PRE_APP4ItemC",
+      "moduleName": "MY_TEST_PRE_APP",
+      "isOpen": true,
+      "objc_name": "Item",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSManagedObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "CoreData.NSManagedObject",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObjectIdentifier",
+                  "printedName": "Swift.ObjectIdentifier",
+                  "usr": "s:SO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ObservableObject",
+          "printedName": "ObservableObject",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ObjectWillChangePublisher",
+              "printedName": "ObjectWillChangePublisher",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObservableObjectPublisher",
+                  "printedName": "Combine.ObservableObjectPublisher",
+                  "usr": "s:7Combine25ObservableObjectPublisherC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine16ObservableObjectP",
+          "mangledName": "$s7Combine16ObservableObjectP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "MY_TEST_PRE_APP",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "MY_TEST_PRE_APP"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "MY_TEST_PRE_APP",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "MY_TEST_PRE_APP"
+    }
+  ],
+  "json_format_version": 6
+}

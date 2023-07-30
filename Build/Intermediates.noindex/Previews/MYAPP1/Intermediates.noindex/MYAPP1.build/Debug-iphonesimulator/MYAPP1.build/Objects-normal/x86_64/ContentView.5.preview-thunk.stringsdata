@@ -1,0 +1,24 @@
+{
+  "source": "/Users/kzalevskaia/Desktop/MYAPP1 2/build/Intermediates.noindex/Previews/MYAPP1/Intermediates.noindex/MYAPP1.build/Debug-iphonesimulator/MYAPP1.build/Objects-normal/x86_64/ContentView.5.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Mac Engineer Intern K.Valevskaia"
+      },
+      {
+        "comment": "",
+        "key": "MALWAREBYTES"
+      },
+      {
+        "comment": "",
+        "key": "A programmer is a person who is able to solve problems going beyond the scope of his knowledge."
+      },
+      {
+        "comment": "",
+        "key": "About"
+      }
+    ]
+  },
+  "version": 1
+}

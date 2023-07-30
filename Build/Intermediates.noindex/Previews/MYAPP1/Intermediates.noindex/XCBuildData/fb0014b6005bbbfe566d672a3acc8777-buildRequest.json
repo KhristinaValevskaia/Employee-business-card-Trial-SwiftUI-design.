@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "19d99e7b4ff71b5552643e2725f31a8a6cc544efebe21d27891b4ddf1964c1a7"
+    }
+  ],
+  "containerPath" : "/Users/kzalevskaia/Desktop/MYAPP1/MYAPP1.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/kzalevskaia/Desktop/MYAPP1/build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/kzalevskaia/Desktop/MYAPP1/build/Products",
+      "derivedDataPath" : "/Users/kzalevskaia/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/kzalevskaia/DerivedData/MYAPP1-fwwxvztwoykepkgrhurgygtjssji/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/kzalevskaia/DerivedData/MYAPP1-fwwxvztwoykepkgrhurgygtjssji/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/kzalevskaia/Desktop/MYAPP1/build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/kzalevskaia/Desktop/MYAPP1/build/Intermediates.noindex/Previews/MYAPP1/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "OBJROOT" : "/Users/kzalevskaia/Desktop/MYAPP1/build/Intermediates.noindex/Previews/MYAPP1/Intermediates.noindex",
+          "SYMROOT" : "/Users/kzalevskaia/Desktop/MYAPP1/build/Intermediates.noindex/Previews/MYAPP1/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
